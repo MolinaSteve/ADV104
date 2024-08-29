@@ -1,9 +1,10 @@
 ﻿CREATE TABLE [dbo].[Dept_Locations]
 (
-	[Dnumber]	int	 Not NUll Constraint [PK_Dept.Location_Number] Primary KEy,
-	[Dlocation] varchar(15) Not Null Constraint [PK_Dept.Location_Location] Primary Key,
-	Constraint [FK_Dept.Location_Number] Foreign Key (Dnumber) References Department(Dnumber)
-);
-Go
+	[Dnumber]	int			NOT NULL CONSTRAINT [PK_Dept_Location_Number]	 PRIMARY KEY,
+	[Dlocation] varchar(15) NOT NULL CONSTRAINT [PK_Dept_Location_Locations] PRIMARY KEY,
 
-create nonclustered index [IX_Dept.Location_Location] On[Dept_Locations] ([Dlocation] ASC)
+	CONSTRAINT [FK_Dept_Location_Number] FOREIGN KEY (Dnumber) REFERENCES Department(Dnumber)
+);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_Dept_Location_Locations] ON[Dept_Locations] ([Dlocation] ASC)
