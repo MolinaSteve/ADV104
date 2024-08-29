@@ -1,17 +1,17 @@
 ﻿CREATE TABLE [dbo].[Department]
 (
-	[Dname]			Varchar(15) NOT NULL ,
-	Dnumber			int			Not NUll ,
-	Mgr_ssn			char(9)		Not NUll,
-	Mgr_start_date	Date		,
+	[Dname]	varchar(15) NOT NULL ,
+	Dnumber	int	NOT NULL ,
+	Mgr_ssn	char(9) NOT NULL,
+	Mgr_start_date	date		,
 
-	Constraint [PK_Department_Number] Primary KEy(Dnumber),
-	Constraint [UX_Department_Name] UNIQUE nonclustered (Dname),
-	Constraint [FK_Department_SSN] Foreign Key (Mgr_ssn) References Employee(SSN)
+	CONSTRAINT [PK_Department_Number] PRIMARY KEY(Dnumber),
+	CONSTRAINT [UX_Department_Name]	UNIQUE NONCLUSTERED (Dname),
+	CONSTRAINT [FK_Department_SSN]	FOREIGN KEY (Mgr_ssn) REFERENCES Employee(SSN)
 );
 GO
 
-create nonclustered index [IX_Department_Name] On [Department] ([Dname] ASC)
+CREATE NONCLUSTERED INDEX [IX_Department_Name] ON [Department] ([Dname] ASC)
 
 
 

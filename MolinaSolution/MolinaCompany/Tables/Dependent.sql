@@ -1,13 +1,14 @@
 ﻿CREATE TABLE [dbo].[Dependent]
 (
-	ESSN	Char(9)	Not NUll,
-	[Dependent_name] Varchar(15) Not Null,
-	sex	char	,
-	Bdate	date ,
-	Relationship Varchar(8) ,
-	Constraint [PK_Dependent_Name] Primary Key (ESSN, Dependent_name),
-	Constraint [FK_Dependent_SSN] Foreign Key (ESSN) References Employee(SSN)
+	ESSN				char(9)		NOT NULL,
+	[Dependent_name]	varchar(15) NOT NULL,
+	sex					char				,
+	Bdate				date				,
+	Relationship		varchar(8)			,
+
+	CONSTRAINT [PK_Dependent_Name] PRIMARY KEY (ESSN, Dependent_name),
+	CONSTRAINT [FK_Dependent_SSN] FOREIGN KEY (ESSN) REFERENCES Employee(SSN)
 );
 GO
 
-create nonclustered Index [IX_Dependent_Sex] ON[Dependent]([sex] ASC)
+CREATE NONCLUSTERED INDEX [IX_Dependent_Sex] ON[Dependent]([sex] ASC)

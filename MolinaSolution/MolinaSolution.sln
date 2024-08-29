@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MolinaFirstProject", "MolinaFirstProject\MolinaFirstProject.sqlproj", "{24EED77D-36A3-4B8A-8A6D-B953A2C9B0A1}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MolinaCompany", "ActivityPan\MolinaCompany.sqlproj", "{ADD450CE-548A-4F46-9011-B915F446FE8A}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MolinaCompany", "MolinaCompany\MolinaCompany.sqlproj", "{ADD450CE-548A-4F46-9011-B915F446FE8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

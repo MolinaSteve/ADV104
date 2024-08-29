@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [dbo].[Project]
 (
-	[Pname]	Varchar(15)	Not Null Constraint [UX_Project_Name] Unique nonclustered,
-	Pnumber INT			Not NUll Constraint [PK_Project_Number] Primary KEy,
-	[Plocation] Varchar(15) ,
-	Dnum	Int			Not Null Constraint [FK_Project_Number] Foreign Key References Department(Dnumber),
+	[Pname]	varchar(15)	NOT NULL CONSTRAINT [UX_Project_Name]	UNIQUE NONCLUSTERED,
+	Pnumber	int	NOT NULL CONSTRAINT [PK_Project_Number] PRIMARY KEY,
+	[Plocation] varchar(15) ,
+	Dnum int	NOT NULL CONSTRAINT [FK_Project_Number] FOREIGN KEY REFERENCES Department(Dnumber),
 );
 
 GO
 
-create nonclustered index [IX_Project_Location] ON[Project] ([Plocation])
+CREATE NONCLUSTERED INDEX [IX_Project_Location] ON[Project] ([Plocation])
