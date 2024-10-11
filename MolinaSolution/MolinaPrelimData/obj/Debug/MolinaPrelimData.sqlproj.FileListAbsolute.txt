@@ -1,0 +1,10 @@
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\bin\Debug\MolinaPrelimData.dacpac
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\bin\Debug\MolinaPrelimData.dll
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\bin\Debug\MolinaPrelimData.pdb
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\MolinaPrelimData.sqlproj.AssemblyReference.cache
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\Model.xml
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\refactor.xml
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\postdeploy.sql
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\predeploy.sql
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\MolinaPrelimData.dll
+D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaPrelimData\obj\Debug\MolinaPrelimData.pdb

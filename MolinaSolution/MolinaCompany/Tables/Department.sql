@@ -11,8 +11,5 @@
 );
 GO
 
-CREATE NONCLUSTERED INDEX [IX_Department_Name] ON [Department] ([Dname] ASC)
-
-
-
+CREATE NONCLUSTERED INDEX [IX_Department_Name] ON [Department] ([Dname] ASC);
 

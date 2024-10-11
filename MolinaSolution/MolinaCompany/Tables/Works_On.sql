@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Works_On]
 (	
-	[ESSN]	char(9)	NOT NULL CONSTRAINT [PK_Works_SSN] PRIMARY KEY,
+	[ESSN]	char(9)	NOT NULL,
 	Pno		int	NOT NULL CONSTRAINT [PK_Works_Number] PRIMARY KEY,	
 	[hours] decimal(3,1) NOT NULL,	
 

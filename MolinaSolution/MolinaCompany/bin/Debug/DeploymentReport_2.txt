@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Dept_Locations]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Dept_Locations] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Dept_Location_Number] (Foreign Key)
+     Create
+       [dbo].[Dept_Locations].[IX_Dept_Location_Locations] (Index)
+       [dbo].[FK_Dept_Location_Number] (Foreign Key)

@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Dependent]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Dependent] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Dependent_SSN] (Foreign Key)
+     Create
+       [dbo].[Dependent].[IX_Dependent_Sex] (Index)
+       [dbo].[FK_Dependent_SSN] (Foreign Key)

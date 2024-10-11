@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Employee.sql" />
@@ -65,5 +66,9 @@
     <Build Include="Tables\Project.sql" />
     <Build Include="Tables\Works_On.sql" />
     <Build Include="Tables\Dependent.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Employee.sql" />
+    <None Include="Scripts\Department.sql" />
   </ItemGroup>
 </Project>
