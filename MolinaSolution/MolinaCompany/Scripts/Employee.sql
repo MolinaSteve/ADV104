@@ -48,3 +48,11 @@ SELECT Employee.*,Department.*
 FROM Employee
 RIGHT JOIN Department
 ON Employee.SSN = Department.Mgr_ssn
+
+SELECT Employee.*, Department.*
+FROM Department
+INNER JOIN Employee ON Department.Dnumber = Employee.DNO
+
+SELECT Employee.*, Department.*
+FROM Department
+CROSS JOIN Employee

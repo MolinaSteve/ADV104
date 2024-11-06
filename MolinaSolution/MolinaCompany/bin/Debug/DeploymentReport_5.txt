@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Department] (Table)
+       [dbo].[Department].[IX_Department_Name] (Index)
+       [dbo].[Dependent] (Table)
+       [dbo].[Dependent].[IX_Dependent_Sex] (Index)
+       [dbo].[Dept_Locations] (Table)
+       [dbo].[Dept_Locations].[IX_Dept_Location_Locations] (Index)
+       [dbo].[Employee] (Table)
+       [dbo].[Employee].[IX_Employee_Name] (Index)
+       [dbo].[Project] (Table)
+       [dbo].[Project].[IX_Project_Location] (Index)
+       [dbo].[Works_On] (Table)
+       [dbo].[Works_on].[IX_Works_Number] (Index)
+       [dbo].[FK_Department_SSN] (Foreign Key)
+       [dbo].[FK_Dependent_SSN] (Foreign Key)
+       [dbo].[FK_Dept_Location_Number] (Foreign Key)
+       [dbo].[FK_Project_Number] (Foreign Key)
+       [dbo].[FK_Works_SSN] (Foreign Key)
+       [dbo].[FK_Works_Number] (Foreign Key)
+
+** Supporting actions

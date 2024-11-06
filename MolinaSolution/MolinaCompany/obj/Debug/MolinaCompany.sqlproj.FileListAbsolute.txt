@@ -8,3 +8,13 @@ D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.
 D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.pdb
 D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaCompany\bin\Debug\ActivityPan.dll
 D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaCompany\bin\Debug\ActivityPan.pdb
+D:\ADV104\MolinaSolution\MolinaCompany\bin\Debug\MolinaCompany.dacpac
+D:\ADV104\MolinaSolution\MolinaCompany\bin\Debug\ActivityPan.dll
+D:\ADV104\MolinaSolution\MolinaCompany\bin\Debug\ActivityPan.pdb
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\MolinaCompany.sqlproj.AssemblyReference.cache
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\Model.xml
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\refactor.xml
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\postdeploy.sql
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\predeploy.sql
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.dll
+D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.pdb

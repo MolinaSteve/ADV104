@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="ActivityPan.dll" />
-			<Metadata Name="FileName" Value="D:\MOLINANEEDSTINAPAY\ADV104\MOLINASOLUTION\MOLINACOMPANY\OBJ\DEBUG\ACTIVITYPAN.DLL" />
+			<Metadata Name="FileName" Value="D:\ADV104\MOLINASOLUTION\MOLINACOMPANY\OBJ\DEBUG\ACTIVITYPAN.DLL" />
 			<Metadata Name="AssemblyName" Value="ActivityPan" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="D:\MolinaNeedsTinapay\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="D:\ADV104\MolinaSolution\MolinaCompany\obj\Debug\ActivityPan.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
